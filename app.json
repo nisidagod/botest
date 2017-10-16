@@ -1,0 +1,25 @@
+{
+  "name": "chinko",
+  "description": "aaa",
+  "keywords": [
+    "XXX",
+    "YYY",
+    "ZZZ"
+  ],
+  "repository": "https://chinko.herokuapp.com/",
+  "logo": "https://raw.githubusercontent.com/xxx/xxx/master/logo.png",
+  "env": {
+    "HUBOT_HEROKU_KEEPALIVE_INTERVAL": {
+      "description": "hubot-heroku-keepalive interval.",
+      "value": ""
+    },
+    "HUBOT_HEROKU_KEEPALIVE_URL": {
+      "description": "hubot-heroku-keepalive URL.",
+      "value": ""
+    }
+  },
+  "addons": [
+    "heroku-redis:hobby-dev",
+    "scheduler:standard"
+  ]
+}
